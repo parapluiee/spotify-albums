@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react'
 import axios from 'axios'
 function App() {
 	const [outcome, setOutcome] = useState([])
-	const CLIENT_ID = "251ae4d1eb8d4445980f57ab288bd078"
+	const CLIENT_ID = "*******************"
 	const REDIRECT_URI = "http://localhost:3000"
 	const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
     	const RESPONSE_TYPE = "token"
